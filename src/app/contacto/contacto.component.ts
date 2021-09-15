@@ -11,12 +11,12 @@ export class ContactoComponent {
    emailIn:string;
    mensajeIn:string;
 
-    miFuncion(miNombre:string,correo:string,mensaje:string){
-        this.nombreIn=miNombre;
+    miFuncion(nombre:string,correo:string,mensaje:string){
+        this.nombreIn=nombre;
         this.emailIn=correo;
         this.mensajeIn=mensaje;
     } 
 
-    
+
 
 }
